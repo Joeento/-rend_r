@@ -1,0 +1,12 @@
+{
+    "name": "joeento/rend_r",
+    "description": "Some basic, interactive, and reusable debug tools",
+    "authors": [
+        {
+            "name": "Eric Kudler",
+            "email": "joeento@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
