@@ -10,9 +10,10 @@ class PrintR
     	switch (gettype($input)) {
     		case 'object':
     		case 'array':
+    			$output .= '(' . count($input) . ' values)';
 	    		$output .= '<ul>';
 		    	foreach($input as $key => $value) {
-		    		$output .= '<li>'.$key.' - '.self::r($value).'</li>';
+		    		$output .= '<li>['.$key.'] => '.self::r($value).'</li>';
 		    	}
 		    	$output .= '</ul>';
 		    	return $output;
